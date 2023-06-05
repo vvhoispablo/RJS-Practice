@@ -22,7 +22,7 @@
     --smallerFontSize: .75rem;
 }
 
-.navBar {
+.NavBar {
     background-color: var(--bg-200);
     display: flex;
     justify-content: space-around;
@@ -30,7 +30,7 @@
     border-radius: 8px;
     padding: 0.5rem 3rem;
 }
-.navBar .logoNav {
+.NavBar .logoNav {
     width: 80px;
     height: 80px;
     cursor: pointer;
@@ -58,12 +58,12 @@
     transition: 0.3s ease;
 }
 
-.cartWidget {
+.CartWidget {
     font-size: var(--h2FontSize);
     color: var(--text-300);
     cursor: pointer;
 }
-.cartWidget:hover {
+.CartWidget:hover {
     color: var(--bg-300);
     transform: translateY(-5px);
     transition: 1s ease;

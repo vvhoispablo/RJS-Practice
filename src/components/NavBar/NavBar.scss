@@ -21,7 +21,7 @@
     --smallerFontSize: .75rem;
 }
 
-.navBar {
+.NavBar {
     background-color: var(--bg-200);
     display: flex;
     justify-content: space-around;
@@ -62,7 +62,7 @@ a {
     transition: .3s ease;
 }   
 
-.cardWiget {
+.CartWidget {
     font-size: var(--h2FontSize);
     color: var(--text-300);
     cursor: pointer;

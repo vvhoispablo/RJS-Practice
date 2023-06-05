@@ -1,5 +1,5 @@
 import React from 'react'
-import './cartWidget.css'
+import './CartWidget.css'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 
 const CartWidget = () => {

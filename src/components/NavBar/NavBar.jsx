@@ -1,14 +1,14 @@
 import React from "react";
-import "./navbar.css";
-import CardWiget from "../CartdWidget/CartWidget";
-import logo from "../../assets/logoB.png";
+import "./NavBar";
+import CartWidget from "../CartdWidget/CartWidget";
+import logo from "../../src/img/logoB.png";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsBoxSeam } from "react-icons/bs";
 import { MdOutlineLocalOffer } from "react-icons/md";
 
-const Navbar = () => {
+const NavBar = () => {
     return (
-        <div className="navBar">
+        <div className="NavBar">
             <div className="logoNav">
                 <img src={logo} alt="logo" />
             </div>
@@ -31,11 +31,11 @@ const Navbar = () => {
                 </li>
             </div>
 
-            <div className="cartWidget">
+            <div className="CartWidget">
                 <CartWidget />
             </div>
         </div>
     );
 };
 
-export default Navbar;
+export default NavBar;
