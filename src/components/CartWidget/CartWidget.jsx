@@ -7,7 +7,7 @@ return (
     <div>
     <AiOutlineShoppingCart className="icon"/>
         <span className='smallText'>
-        8
+        10
         </span>
     </div>
 )
