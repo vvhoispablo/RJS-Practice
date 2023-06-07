@@ -1,42 +1,103 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  transition: .3s ease;
+} */
+
+:root {
+  --primary-100:#944927;
+  --primary-200:#9c5b4b;
+  --primary-300:#c99a6e;
+  --accent-100:#aa735d;
+  --accent-200:#aa5d5d;
+  --text-100:#e49677;
+  --text-200:#da8888;
+  --text-300:#fff;
+  --bg-100:#cccccc;
+  --bg-200:#575757;
+  --bg-300:#1d1c1c;
+  /* fuentes & tamaños */
+  --bigFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallerFontSize: .75rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html {
+  font-size: 90%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+li {
+  list-style: none;
 }
 
-.card {
-  padding: 2em;
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+img { 
+  width: 50%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--bg-200);
+  padding: .8rem 1rem;
+  color: var(--text-300);
+  background: var(--bg-300);
+}
+
+.btn .icon {
+  margin-left: .5rem;
+}
+
+.btn:hover {
+  background: var(--bg-200);
+  color: var(--text-300);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 1rem;
+  background-color: var(--bg-200);
+}
+
+.container {
+  position: relative;
+  width: 95vw;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-300);
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 8px var(--text-200);
 }

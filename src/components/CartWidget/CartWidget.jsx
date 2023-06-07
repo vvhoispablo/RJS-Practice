@@ -1,16 +1,16 @@
 import React from 'react'
-import './CartWidget.css'
+import './cartWidget.css'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 
-const CartWidget = () => {
-return (
+const CardWiget = () => {
+  return (
     <div>
-    <AiOutlineShoppingCart className="icon"/>
+      <AiOutlineShoppingCart className="icon"/>
         <span className='smallText'>
-        10
+          8
         </span>
     </div>
-)
+  )
 }
 
 export default CartWidget

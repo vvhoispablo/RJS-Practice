@@ -1,7 +1,7 @@
 import React from "react";
-import "..NavBar/NavBar";
+import "./NavBar.css";
 import CartWidget from "../CartWidget/CartWidget";
-import logo from "../src/img/logoB.png";
+import logo from "../../img/logoB.png";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsBoxSeam } from "react-icons/bs";
 import { MdOutlineLocalOffer } from "react-icons/md";
@@ -38,4 +38,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;

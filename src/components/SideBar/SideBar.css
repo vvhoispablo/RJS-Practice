@@ -1,79 +1,79 @@
 @charset "UTF-8";
 :root {
-    --primary-100:#FFDAB9;
-    --primary-200:#dfb28a;
-    --primary-300:#8c633c;
-    --accent-100:#79b83f;
-    --accent-200:#975f48;
-    --text-100:#000000;
-    --text-200:#b8aeae;
-    --text-300:#ece6e6;
-    --bg-100:#aff4f9;
-    --bg-200:#d2eea5;
-    --bg-300:#c57f80;
-
-/* fuentes y tamaños */
-    --bigFontSize: 2.5rem;
-    --h1FontSize: 1.5rem;
-    --h2FontSize: 1.25rem;
-    --h3FontSize: 1rem;
-    --normalFontSize: .938rem;
-    --smallFontSize: .813rem;
-    --smallerFontSize: .75rem;
+  --primary-100:#944927;
+  --primary-200:#9c5b4b;
+  --primary-300:#c99a6e;
+  --accent-100:#aa735d;
+  --accent-200:#aa5d5d;
+  --text-100:#e49677;
+  --text-200:#da8888;
+  --text-300:#fff;
+  --bg-100:#cccccc;
+  --bg-200:#575757;
+  --bg-300:#1d1c1c;
+  /* fuentes & tamaños */
+  --bigFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallerFontSize: .75rem;
 }
 
 .NavBar {
-    background-color: var(--bg-200);
-    box-shadow: 1px 0px 4px var(--text-200);
-    width: 18%;
-    height: 100%;
-    gap: 1rem;
-    overflow: auto;
+  background-color: var(--bg-200);
+  box-shadow: 1px 0px 4px var(--text-200);
+  width: 18%;
+  height: 100%;
+  gap: 1rem;
+  overflow: auto;
 }
 
 .logoDiv {
-    padding: 1rem 1rem 0;
-    cursor: pointer;
+  padding: 1rem 1rem 0;
+  cursor: pointer;
 }
 .logoDiv img {
-    max-width: 160px;
-    margin-left: 1rem;
+  max-width: 160px;
+  margin-left: 1rem;
 }
 
 .menuDiv .divTitle, .settingsDiv .divTitle {
-    font-size: var(--h3FontSize);
-    color: var(--accent-200);
-    padding: 0 1.5rem 1rem;
+  font-size: var(--h3FontSize);
+  color: var(--accent-200);
+  padding: 0 1.5rem 1rem;
 }
 .menuDiv .menuList .listItem, .settingsDiv .menuList .listItem {
-    padding: 0.2rem 1.5rem;
-    width: 100%;
-    position: relative;
+  padding: 0.2rem 1.5rem;
+  width: 100%;
+  position: relative;
 }
 .menuDiv .menuList .listItem::before, .settingsDiv .menuList .listItem::before {
-    position: absolute;
-    content: "";
-    height: 0%;
-    left: 0;
-    width: 5px;
-    bottom: 0;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: var(--text-300);
+  position: absolute;
+  content: "";
+  height: 0%;
+  left: 0;
+  width: 5px;
+  bottom: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--text-300);
 }
 .menuDiv .menuList .listItem .menuLink, .settingsDiv .menuList .listItem .menuLink {
-    color: var(--text-300);
-    font-weight: 500;
-    transition: 0;
+  color: var(--text-300);
+  font-weight: 500;
+  transition: 0;
 }
 .menuDiv .menuList .listItem .menuLink .icon, .settingsDiv .menuList .listItem .menuLink .icon {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 .menuDiv .menuList .listItem:hover .menuLink, .settingsDiv .menuList .listItem:hover .menuLink {
-    color: var(--accent-200);
-    transition: 0;
+  color: var(--accent-200);
+  transition: 0;
 }
 .menuDiv .menuList .listItem:hover::before, .settingsDiv .menuList .listItem:hover::before {
-    height: 100%;
-    transition: 0.3s ease;
-}/*# sourceMappingURL=SideBar.css.map */
+  height: 100%;
+  transition: 0.3s ease;
+}
+/*# sourceMappingURL=SideBar.css.map */

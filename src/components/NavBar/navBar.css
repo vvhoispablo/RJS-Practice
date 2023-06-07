@@ -1,71 +1,71 @@
 @charset "UTF-8";
 :root {
-    --primary-100:#FFDAB9;
-    --primary-200:#dfb28a;
-    --primary-300:#8c633c;
-    --accent-100:#79b83f;
-    --accent-200:#975f48;
-    --text-100:#000000;
-    --text-200:#b8aeae;
-    --text-300:#ece6e6;
-    --bg-100:#aff4f9;
-    --bg-200:#d2eea5;
-    --bg-300:#c57f80;
 
-/* fuentes y tamaños */
-    --bigFontSize: 2.5rem;
-    --h1FontSize: 1.5rem;
-    --h2FontSize: 1.25rem;
-    --h3FontSize: 1rem;
-    --normalFontSize: .938rem;
-    --smallFontSize: .813rem;
-    --smallerFontSize: .75rem;
+  --primary-100:#944927;
+  --primary-200:#9c5b4b;
+  --primary-300:#c99a6e;
+  --accent-100:#aa735d;
+  --accent-200:#aa5d5d;
+  --text-100:#e49677;
+  --text-200:#da8888;
+  --text-300:#fff;
+  --bg-100:#cccccc;
+  --bg-200:#575757;
+  --bg-300:#1d1c1c;
+  /* fuentes & tamaños */
+  --bigFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallerFontSize: .75rem;
 }
 
 .NavBar {
-    background-color: var(--bg-200);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 8px;
-    padding: 0.5rem 3rem;
+  background-color: var(--bg-200);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0.5rem 3rem;
 }
 .NavBar .logoNav {
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
 }
-.navBar .logoNav img {
-    width: 80px;
-    height: 80px;
+.NavBar .logoNav img {
+  width: 80px;
+  height: 80px;
 }
 
 .items {
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 }
 .items li {
-    list-style: none;
+  list-style: none;
 }
 .items li a {
-    text-decoration: none;
-    color: var(--text-300);
-    font-size: var(--h2FontSize);
+  text-decoration: none;
+  color: var(--text-300);
+  font-size: var(--h2FontSize);
 }
 .items li a:hover {
-    color: var(--bg-300);
-    transition: 0.3s ease;
+  color: var(--bg-300);
+  transition: 0.3s ease;
 }
 
 .CartWidget {
-    font-size: var(--h2FontSize);
-    color: var(--text-300);
-    cursor: pointer;
+  font-size: var(--h2FontSize);
+  color: var(--text-300);
+  cursor: pointer;
 }
-.CartWidget:hover {
-    color: var(--bg-300);
-    transform: translateY(-5px);
-    transition: 1s ease;
-    font-size: var(--h1FontSize);
-}/*# sourceMappingURL=navbar.css.map */
+.CardWidget:hover {
+  color: var(--bg-300);
+  transform: translateY(-5px);
+  transition: 1s ease;
+  font-size: var(--h1FontSize);
+}/*# sourceMappingURL=NavBar.css.map */

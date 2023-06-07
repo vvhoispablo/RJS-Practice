@@ -1,102 +1,96 @@
-import React from 'react';
-import './SideBar.css';
-import logo from "../src/img/logoB.png";
-import {AiOutlineShoppingCart} from 'react-icons/ai';
-import {AiOutlineHome} from 'react-icons/ai';
-import {BsBoxSeam} from 'react-icons/bs';
-import {MdOutlineLocalOffer} from 'react-icons/md';
-import {MdOutlineContactPhone} from 'react-icons/md';
-import {VscAccount} from 'react-icons/vsc';
-import {SlSocialInstagram} from 'react-icons/sl';
+import React from 'react'
+import './SideBar.css'
+import logo from '../../img/logoB.png'
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {AiOutlineHome} from 'react-icons/ai'
+import {BsBoxSeam} from 'react-icons/bs'
+import {MdOutlineLocalOffer} from 'react-icons/md'
+import {MdOutlineContactPhone} from 'react-icons/md'
+import {VscAccount} from 'react-icons/vsc'
+import {SlSocialInstagram} from 'react-icons/sl'
+import {BsFacebook} from 'react-icons/bs'
+import {FaTiktok} from 'react-icons/fa'
 
 const NavBar = () => {
-return (
+  return (
     <div className='NavBar grid'>
-    <div className="logoDiv flex">
+      <div className="logoDiv flex">
         <img src={logo} alt="Imagen Logo" />
-    </div>
+      </div>
 
-    <div className="menuDiv">
+      <div className="menuDiv">
         <h3 className="divTitle">
-        Menú
+          Navegador
         </h3>
         <ul className='menuList grid'>
         
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <AiOutlineHome className="icon"/>
-            <span className='smallText'>
+              <AiOutlineHome className="icon"/>
+              <span className='smallText'>
                 Inicio
-            </span>
+              </span>
             </a>
-        </li>
+          </li>
 
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <BsBoxSeam className="icon"/>
-            <span className='smallText'>
-                Productos
-            </span>
+              <BsBoxSeam className="icon"/>
+              <span className='smallText'>
+                Proyectos
+              </span>
             </a>
-        </li>
+          </li>
 
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <MdOutlineLocalOffer className="icon"/>
-            <span className='smallText'>
-                Ofertas
-            </span>
+              <MdOutlineLocalOffer className="icon"/>
+              <span className='smallText'>
+                Sobre Nosotros
+              </span>
             </a>
-        </li>
+          </li>
 
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <AiOutlineShoppingCart className="icon"/>
-            <span className='smallText'>
-                Carrito 8
-            </span>
+              <AiOutlineShoppingCart className="icon"/>
+              <span className='smallText'>
+                Carrito 10
+              </span>
             </a>
-        </li>
+          </li>
         </ul>
-    </div>
+      </div>
 
-    <div className="settingsDiv">
+      <div className="settingsDiv">
         <h3 className="divTitle">
-        Redes
+          Redes
         </h3>
         <ul className='menuList grid'>
-        
-        <li className="listItem">
-            <a href="/" className='menuLink flex'>
-            <VscAccount className="icon"/>
-            <span className='smallText'>
-                Mi Cuenta
-            </span>
-            </a>
-        </li>
 
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <SlSocialInstagram className="icon"/>
-            <span className='smallText'>
+              <SlSocialInstagram className="icon"/>
+              <span className='smallText'>
                 Instagram
-            </span>
+              </span>
             </a>
-        </li>
+          </li>
 
-        <li className="listItem">
+          <li className="listItem">
             <a href="/" className='menuLink flex'>
-            <BsFacebook className="icon"/>
-            <span className='smallText'>
+              <BsFacebook className="icon"/>
+              <span className='smallText'>
                 Facebook
-            </span>
+              </span>
             </a>
-        </li>
-
+          </li>
         </ul>
+
+      </div>
     </div>
-    </div>
-    )
+    
+  )
 }
 
 export default NavBar

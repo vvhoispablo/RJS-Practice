@@ -1,15 +1,16 @@
 import './App.css'
-import './components/NavBar/NavBar'
-import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
-import NavBar from './components/NavBar/NavBar'
-
+import Navbar from './components/Navbar/Navbar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import SideBar from './components/SideBar/SideBar'
+import Body from './components/BodySection/Body/Body'
 function App() {
 
   return (
     <div className='container'>
       <NavBar />
-      <ItemListContainer greeting={"Under Construction"}/>
-
+      <ItemListContainer greeting={" 🚧 Under Construction 🚧"}/>
+      {/* <SideBar /> */}
+      {/* <Body /> */}
     </div>
   )
 }
